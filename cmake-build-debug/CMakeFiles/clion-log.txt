@@ -1,0 +1,2 @@
+C:\Windows\System32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/d/Internship_ShanghaiElectric/TestingFlashMemory/cmake-build-debug && /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G 'CodeBlocks - Unix Makefiles' /mnt/d/Internship_ShanghaiElectric/TestingFlashMemory; exitcode=$?; sleep 0.001; (exit $exitcode)"
+/bin/sh: 1: cd: can't cd to /mnt/d/Internship_ShanghaiElectric/TestingFlashMemory/cmake-build-debug
